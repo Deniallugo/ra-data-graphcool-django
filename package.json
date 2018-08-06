@@ -1,0 +1,80 @@
+{
+  "_from": "ra-data-graphcool",
+  "_id": "ra-data-graphcool@2.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-7iVc6pmvnUruW0CR+7eYEC4CxmteHi6WD2b+hRdGlJ4rLzi0nuBvBewaZR5JQtGFBuy3gxz5tltf5YFZ5JPw1w==",
+  "_location": "/ra-data-graphcool",
+  "_phantomChildren": {
+    "apollo-client": "2.3.7",
+    "apollo-client-preset": "1.0.8",
+    "graphql-tag": "2.9.2",
+    "lodash": "4.17.10",
+    "pluralize": "7.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ra-data-graphcool",
+    "name": "ra-data-graphcool",
+    "escapedName": "ra-data-graphcool",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ra-data-graphcool/-/ra-data-graphcool-2.2.0.tgz",
+  "_shasum": "2ba017a363ae1a49902db196dde387c13a61adcf",
+  "_spec": "ra-data-graphcool",
+  "_where": "/Users/danillugovskoy/iconic/test-admin",
+  "authors": [
+    "Gildas Garcia"
+  ],
+  "bugs": {
+    "url": "https://github.com/marmelab/react-admin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "graphql-tag": "^2.6.1",
+    "lodash": "~4.17.5",
+    "pluralize": "~7.0.0",
+    "ra-data-graphql": "^2.2.0"
+  },
+  "deprecated": false,
+  "description": "A Graphcool data provider for react-admin",
+  "devDependencies": {
+    "babel-cli": "~6.26.0",
+    "cross-env": "^5.2.0",
+    "graphql": "^0.13.2",
+    "react-admin": "^2.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "homepage": "https://github.com/marmelab/react-admin#readme",
+  "keywords": [
+    "reactjs",
+    "react",
+    "react-admin",
+    "admin-on-rest",
+    "rest",
+    "graphql",
+    "graphcool"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "ra-data-graphcool",
+  "peerDependencies": {
+    "graphql": "^0.13.2",
+    "react-admin": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marmelab/react-admin.git"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && cross-env NODE_ENV=production babel --quiet ./src -d ./lib --ignore spec.js,test.js",
+    "watch": "rimraf ./lib && cross-env NODE_ENV=production babel --watch ./src -d ./lib --ignore spec.js,test.js"
+  },
+  "version": "2.2.0"
+}
